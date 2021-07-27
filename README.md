@@ -23,7 +23,7 @@ Once you have a complete database, do the following:
 1.	Import the SQL database into Pandas and use the code below to get started. Be sure to make any necessary modifications for your username, password, host, port, and database name:
 
     •   from sqlalchemy import create_engine                                                                                               
-    •   engine = create_engine('postgresql://localhost:5432/<your_db_name>')
+    •   engine = create_engine('postgresql://localhost:5432/<your_db_name>')                                                               
     •   connection = engine.connect()
 
 •	Consult SQLAlchemy documentation for more information.

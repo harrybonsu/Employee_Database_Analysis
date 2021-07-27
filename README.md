@@ -26,6 +26,6 @@ Once you have a complete database, do the following:
     •   engine = create_engine('postgresql://localhost:5432/<your_db_name>')                                                               
     •   connection = engine.connect()
 
-•	Consult SQLAlchemy documentation for more information.
-2.	Create a histogram to visualize the most common salary ranges for employees.
-3.	Create a bar chart of average salary by title.
+•	Consult SQLAlchemy documentation for more information.                                                                                 
+2.	Create a histogram to visualize the most common salary ranges for employees.                                                           
+3.	Create a bar chart of average salary by title.                                                                                         
